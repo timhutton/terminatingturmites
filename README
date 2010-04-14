@@ -1,0 +1,22 @@
+Terminating Turmites
+--------------------
+
+Build using CMake (www.cmake.org).
+
+Build on Linux:
+
+> mkdir build
+> cd build
+> ccmake ..
+(configure, generate)
+> make
+
+Build on Windows:
+
+1) Run the CMake GUI.
+2) Specify a separate build directory.
+3) Specify the IDE you want to target.
+4) Configure, generate.
+5) Compile in your chosen IDE.
+
+Contact: tim.hutton@gmail.com
