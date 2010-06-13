@@ -22,16 +22,16 @@ int main()
     // ---------------- things a casual user will want to experiment with -----------------------
 
     // choose the type of turmite you want to search for:
-    const int N_DIM=2; // 1D, 2D, 3D, etc.
-    const int N_STATES=2;
-    const int N_COLORS=3;
-    const bool relative_movement = true; // true: relative Turmites ("TurNing machines"), false: absolute Turmites (Turing machines)
+    const int N_DIM=3; // 1D, 2D, 3D, etc.
+    const int N_STATES=4;
+    const int N_COLORS=2;
+    const bool relative_movement = false; // true: relative Turmites ("TurNing machines"), false: absolute Turmites (Turing machines)
 
     // specify some constraints we need to help us search
-    const int ITS=100000; // Limitation of this approach: if BB lasts longer than this we'll miss it
-    const int R=100; // square radius. Limitation: if BB spreads more than this in any direction we'll miss it
+    const int ITS=10000; // Limitation of this approach: if BB lasts longer than this we'll miss it
+    const int R=20; // square radius. Limitation: if BB spreads more than this in any direction we'll miss it
 
-    const unsigned long long PRINT_EVERY=1000; // how often to report back
+    const unsigned long long PRINT_EVERY=10000; // how often to report back
 
     // ------------------------------------------------------------------------------------------
 

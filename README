@@ -2,6 +2,7 @@ Terminating Turmites
 --------------------
 
 Build using CMake (www.cmake.org).
+Requires: OpenCV (for graphical output on tri and hex grids)
 
 Build on Linux:
 

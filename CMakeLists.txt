@@ -1,3 +1,7 @@
-Project(tt_search)
+cmake_minimum_required(VERSION 2.8)
 
-ADD_EXECUTABLE(tt_search tt_search.cpp)
+Project(TerminatingTurmites)
+
+ADD_SUBDIRECTORY(square_grid)
+ADD_SUBDIRECTORY(tri_grid)
+ADD_SUBDIRECTORY(hex_grid)
