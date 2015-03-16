@@ -15,8 +15,6 @@
 This program found many the results collected here:
 http://code.google.com/p/ruletablerepository/wiki/TwoDimensionalTuringMachines
 
-Our logo is the 4-state 2-color absolute-movement turmite that writes the most squares.
-
 ## Wishlist ##
 
   * Support for relative-movement turmites in 3D and higher.
