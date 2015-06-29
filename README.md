@@ -13,7 +13,7 @@
 ## Results ##
 
 This program found many the results collected here:
-http://code.google.com/p/ruletablerepository/wiki/TwoDimensionalTuringMachines
+https://github.com/timhutton/ruletablerepository/wiki/TwoDimensionalTuringMachines
 
 ## Wishlist ##
 
